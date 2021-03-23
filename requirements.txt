@@ -1,0 +1,2 @@
+Logbook~=1.5.3
+CASlibrary~=0.6.2
