@@ -1,8 +1,8 @@
 from datetime import datetime, time as dtime
-from pytz import timezone
 
 from CASlibrary import Config, Logger, RedisMB
 from CASlibrary.constants import AlertType
+from pytz import timezone
 
 
 class InputListener:

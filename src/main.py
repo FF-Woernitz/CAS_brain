@@ -31,6 +31,7 @@ class Brain:
         except (KeyboardInterrupt, SystemExit):
             self.signalhandler("KeyboardInterrupt")
 
+
 if __name__ == "__main__":
     c = Brain()
     c.main()
