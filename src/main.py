@@ -1,7 +1,6 @@
 import signal
 import sys
 
-from logbook import DEBUG, INFO, NOTICE
 from CASlibrary import Config, Logger, RedisMB
 
 from inputListener import InputListener
