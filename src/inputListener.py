@@ -63,6 +63,9 @@ class InputListener:
                 self.logger.info("Trigger {} has no actions".format(trigger["name"]))
                 continue
 
+            # Temporarily message for the LED
+            self.redisMB.alert(AlertType.ZVEI, zvei)
+
             action_data = {"trigger_name": trigger["name"], "zvei": zvei}
             self.logger.info("Adding actions of trigger {} to queue".format(trigger["name"]))
             for action in trigger["action"]:
